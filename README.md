@@ -1,3 +1,7 @@
+# 😁
+
+<details>
+<summary> 👃
 </summary>
 <img src="https://raw.githubusercontent.com/K0unty/utsv1/main/public/r.gif" width="400%">
 </details>
