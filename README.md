@@ -1,3 +1,7 @@
+</summary>
+<img src="https://raw.githubusercontent.com/K0unty/utsv1/main/public/r.gif" width="400%">
+</details>
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
