@@ -1,0 +1,37 @@
+This plugin checker shows errors directly on the page 
+
+1. Main Website
+https://vite-plugin-checker.netlify.app/
+
+Install
+---
+npm i vite-plugin-checker -D 
+
+Vite.Config.Js
+---
+// vite.config.js
+import checker from 'vite-plugin-checker'
+export default {
+  plugins: [
+    checker({
+      // e.g. use TypeScript check
+      typescript: true,
+    }),
+  ],
+}
+
+Adding the plugin to the default Create React TS from stack blits 
+
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import checker from 'vite-plugin-checker';
+
+export default defineConfig({
+  plugins: [
+    react(),
+    checker({
+      // e.g. use TypeScript check
+      typescript: true,
+    })
+  ],
+});
